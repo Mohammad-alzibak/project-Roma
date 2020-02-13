@@ -4,9 +4,8 @@
     padding: 0;
 }
 
-body {
+#first-section {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cleo-topper.jpg) center/cover no-repeat;
-    height: 100vh;
     background-attachment: fixed;
     font-family: santio, bold;
 }
@@ -145,13 +144,49 @@ h3 span {
     color: #fff;
     padding: 7px;
 }
+.second-section-first-article {
+    padding: 0;
+    height: 120vh;
+}
 
-.sixth-article img {
+.second-section-first-article img {
     width: 100%;
-    padding-left: 0;
-    background: url(../img/see.png) center/contain no-repeat ;
+    padding: 0;
+    background: url(../img/see.png) center/contain;
 }
-.sixth-article {
- background-color: #fff;
- height: 75vh;
+.second-section-second-article {
+    color: #fff;
+    background-color: #000;
 }
+.second-section-second-article p{
+    width: 70%;
+    font-size: 8em;
+    font-family: santio ;
+    font-weight: 800;
+    padding: 10% 0 2% 10%;
+}
+.second-section-second-article h5 a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 3em;
+    font-family: roboto;
+    padding: 20px;
+    margin-left: 10%;
+}
+.second-section-second-article h5 a:hover {
+    box-shadow: 5px 5px #fff;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: roboto;
+}
+footer a {
+    color: #6bc1a3 ;
+    text-decoration: none;
+
+}
+

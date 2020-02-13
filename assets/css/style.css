@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe|Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/cleo-topper.jpg) center/cover no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    font-family: santio, bold;
+}
+
+article {
+    position: relative;
+    padding-bottom: 50vh;
+}
+
+img {
+    padding-left: 20%;
+    padding-bottom: 5%;
+    width: 200px;
+}
+
+header {
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    color: #fff;
+    font-size: 1.6em;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    border-bottom: 2px solid #e7bc0e;
+}
+
+.header-heart {
+    width: 25px;
+    position: absolute;
+    left: -40%;
+    top: 2%;
+}
+
+.first-article-head {
+    width: 25%;
+    font-size: 5em;
+    font-family: santio, bold;
+    padding: 10% 0 8% 10%;
+    color: #fff;
+}
+
+article:nth-child(1) a {
+    text-decoration: none;
+    color: #e7bc0e;
+    font-size: 2.5em;
+    font-family: 'Mr Dafoe', cursive;
+    padding-left: 10%;
+}
+
+.down-arrow {
+    position: absolute;
+    left: 35%;
+    transform: rotate(90deg);
+}
+
+.first-article-p {
+    color: #6bc1a3;
+    font-size: 3em;
+    font-weight: bolder;
+    width: 75vw;
+    line-height: 80px;
+    padding: 70vh 0 0 15%;
+}
+
+.first-article-p span {
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    padding: 7px;
+}
+
+.second-article-head {
+    color: #e7bc0e;
+    font-size: 8em;
+    padding-left: 20%;
+}
+
+.second-article-p {
+    color: #e7bc0e;
+    font-size: 3em;
+    padding-left: 20%;
+}
+
+.second-article-p span {
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    padding: 7px;
+}
+
+.third-article-head {
+    color: #cb91b6;
+    font-size: 8em;
+    padding-left: 20%;
+}
+
+.third-article-p {
+    color: #cb91b6;
+    font-size: 3em;
+    padding-left: 20%;
+}
+
+.third-article-p span {
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    padding: 7px;
+}
+
+.fourth-article-head {
+    color: #6bc1a3;
+    font-size: 8em;
+    padding-left: 20%;
+}
+
+.fourth-article-p {
+    color: #6bc1a3;
+    font-size: 3em;
+    padding-left: 20%;
+}
+
+.fourth-article-p span {
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    padding: 7px;
+}
+
+h3 {
+    color: #7eb8e1;
+    font-size: 3em;
+    font-weight: bolder;
+    width: 75vw;
+    line-height: 80px;
+    padding-left: 15%;
+}
+
+h3 span {
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    padding: 7px;
+}
+
+.sixth-article img {
+    width: 100%;
+    padding-left: 0;
+    background: url(../img/see.png) center/contain no-repeat ;
+}
+.sixth-article {
+ background-color: #fff;
+ height: 75vh;
+}
